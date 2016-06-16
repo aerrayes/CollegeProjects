@@ -1,0 +1,160 @@
+﻿Build started 31/05/2011 22:20:41.
+     1>Project "C:\Documents and Settings\spider\Desktop\Logic Simulator\graphics_prj.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\graphics_prj.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt AND2.cpp AddANDgate2.cpp AddANDgate3.cpp AddBUFFERgate.cpp AddLabel.cpp AddLed.cpp AddNANDgate2.cpp AddNORgate2.cpp AddNORgate3.cpp AddNOTgate.cpp AddORgate2.cpp AddSwitch.cpp AddXNORgate2.cpp AddXORgate2.cpp AddXORgate3.cpp And3.cpp ApplicationManager.cpp Buffer.cpp Component.cpp Connect.cpp Delete.cpp Exit.cpp Gate.cpp InputPin.cpp Led.cpp Level.cpp Load.cpp Move.cpp Nand2.cpp Nor2.cpp Nor3.cpp Not.cpp OR2.cpp OutputPin.cpp Pin.cpp RedoA.cpp Save.cpp Selection.cpp Simulation.cpp Switch.cpp TruthTable.cpp UndoA.cpp XNOR2.cpp Xor2.cpp Xor3.cpp main.cpp
+         AND2.cpp
+         Generating Code...
+         Compiling...
+         ApplicationManager.cpp
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         main.cpp
+         Xor3.cpp
+         Xor2.cpp
+         XNOR2.cpp
+         UndoA.cpp
+         TruthTable.cpp
+         Switch.cpp
+         Simulation.cpp
+         Selection.cpp
+         Save.cpp
+         RedoA.cpp
+         Pin.cpp
+         OutputPin.cpp
+         OR2.cpp
+         Not.cpp
+         Nor3.cpp
+         Nor2.cpp
+         Nand2.cpp
+         Move.cpp
+         Load.cpp
+         Level.cpp
+         Led.cpp
+         InputPin.cpp
+         Gate.cpp
+         Exit.cpp
+         Delete.cpp
+         Connect.cpp
+         Component.cpp
+         Buffer.cpp
+         And3.cpp
+         AddXORgate3.cpp
+         AddXORgate2.cpp
+         AddXNORgate2.cpp
+         AddSwitch.cpp
+         AddORgate2.cpp
+         AddNOTgate.cpp
+         AddNORgate3.cpp
+         AddNORgate2.cpp
+         AddNANDgate2.cpp
+         AddLed.cpp
+         AddLabel.cpp
+         AddBUFFERgate.cpp
+         AddANDgate3.cpp
+         AddANDgate2.cpp
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/graphics_prj.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\graphics_prj.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/graphics_prj.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\graphics_prj.lib" /MACHINE:X86 .\Debug\graphics_prj.exe.embed.manifest.res
+         .\Debug/AddANDgate3.obj
+         .\Debug/AddBUFFERgate.obj
+         .\Debug/AddLabel.obj
+         .\Debug/AddLed.obj
+         .\Debug/AddNANDgate2.obj
+         .\Debug/AddNORgate2.obj
+         .\Debug/AddNORgate3.obj
+         .\Debug/AddNOTgate.obj
+         .\Debug/AddORgate2.obj
+         .\Debug/AddSwitch.obj
+         .\Debug/AddXNORgate2.obj
+         .\Debug/AddXORgate2.obj
+         .\Debug/AddXORgate3.obj
+         .\Debug/And3.obj
+         .\Debug/Buffer.obj
+         .\Debug/auxil.obj
+         .\Debug/CMUgraphics.obj
+         .\Debug/image.obj
+         .\Debug/jpegload.obj
+         .\Debug/keyqueue.obj
+         .\Debug/mousequeue.obj
+         .\Debug/windowinput.obj
+         .\Debug/jcomapi.obj
+         .\Debug/jcparam.obj
+         .\Debug/jdapimin.obj
+         .\Debug/jdapistd.obj
+         .\Debug/jdatasrc.obj
+         .\Debug/jdcoefct.obj
+         .\Debug/jdcolor.obj
+         .\Debug/jddctmgr.obj
+         .\Debug/jdhuff.obj
+         .\Debug/jdinput.obj
+         .\Debug/jdmainct.obj
+         .\Debug/jdmarker.obj
+         .\Debug/jdmaster.obj
+         .\Debug/jdmerge.obj
+         .\Debug/jdphuff.obj
+         .\Debug/jdpostct.obj
+         .\Debug/jdsample.obj
+         .\Debug/jdtrans.obj
+         .\Debug/jerror.obj
+         .\Debug/jidctflt.obj
+         .\Debug/jidctfst.obj
+         .\Debug/jidctint.obj
+         .\Debug/jidctred.obj
+         .\Debug/jmemmgr.obj
+         .\Debug/jmemnobs.obj
+         .\Debug/jquant1.obj
+         .\Debug/jquant2.obj
+         .\Debug/jutils.obj
+         .\Debug/AddANDgate2.obj
+         .\Debug/Connect.obj
+         .\Debug/Delete.obj
+         .\Debug/Exit.obj
+         .\Debug/Input.obj
+         .\Debug/InputPin.obj
+         .\Debug/Led.obj
+         .\Debug/Level.obj
+         .\Debug/Load.obj
+         .\Debug/Move.obj
+         .\Debug/Nand2.obj
+         .\Debug/Nor2.obj
+         .\Debug/Nor3.obj
+         .\Debug/Not.obj
+         .\Debug/OR2.obj
+         .\Debug/Output.obj
+         .\Debug/OutputPin.obj
+         .\Debug/Pin.obj
+         .\Debug/AND2.obj
+         .\Debug/Component.obj
+         .\Debug/Gate.obj
+         .\Debug/ApplicationManager.obj
+         .\Debug/main.obj
+         .\Debug/RedoA.obj
+         .\Debug/Save.obj
+         .\Debug/Selection.obj
+         .\Debug/Simulation.obj
+         .\Debug/Switch.obj
+         .\Debug/TruthTable.obj
+         .\Debug/UndoA.obj
+         .\Debug/XNOR2.obj
+         .\Debug/Xor2.obj
+         .\Debug/Xor3.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\graphics_prj.exe.embed.manifest" /manifest .\Debug\graphics_prj.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         graphics_prj.vcxproj -> C:\Documents and Settings\spider\Desktop\Logic Simulator\.\Debug\graphics_prj.exe
+       BscMake:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug/graphics_prj.bsc" .\Debug\AddANDgate3.sbr .\Debug\AddBUFFERgate.sbr .\Debug\AddLabel.sbr .\Debug\AddLed.sbr .\Debug\AddNANDgate2.sbr .\Debug\AddNORgate2.sbr .\Debug\AddNORgate3.sbr .\Debug\AddNOTgate.sbr .\Debug\AddORgate2.sbr .\Debug\AddSwitch.sbr .\Debug\AddXNORgate2.sbr .\Debug\AddXORgate2.sbr .\Debug\AddXORgate3.sbr .\Debug\And3.sbr .\Debug\Buffer.sbr .\Debug\auxil.sbr .\Debug\CMUgraphics.sbr .\Debug\image.sbr .\Debug\jpegload.sbr .\Debug\keyqueue.sbr .\Debug\mousequeue.sbr .\Debug\windowinput.sbr .\Debug\jcomapi.sbr .\Debug\jcparam.sbr .\Debug\jdapimin.sbr .\Debug\jdapistd.sbr .\Debug\jdatasrc.sbr .\Debug\jdcoefct.sbr .\Debug\jdcolor.sbr .\Debug\jddctmgr.sbr .\Debug\jdhuff.sbr .\Debug\jdinput.sbr .\Debug\jdmainct.sbr .\Debug\jdmarker.sbr .\Debug\jdmaster.sbr .\Debug\jdmerge.sbr .\Debug\jdphuff.sbr .\Debug\jdpostct.sbr .\Debug\jdsample.sbr .\Debug\jdtrans.sbr .\Debug\jerror.sbr .\Debug\jidctflt.sbr .\Debug\jidctfst.sbr .\Debug\jidctint.sbr .\Debug\jidctred.sbr .\Debug\jmemmgr.sbr .\Debug\jmemnobs.sbr .\Debug\jquant1.sbr .\Debug\jquant2.sbr .\Debug\jutils.sbr .\Debug\AddANDgate2.sbr .\Debug\Connect.sbr .\Debug\Delete.sbr .\Debug\Exit.sbr .\Debug\Input.sbr .\Debug\InputPin.sbr .\Debug\Led.sbr .\Debug\Level.sbr .\Debug\Load.sbr .\Debug\Move.sbr .\Debug\Nand2.sbr .\Debug\Nor2.sbr .\Debug\Nor3.sbr .\Debug\Not.sbr .\Debug\OR2.sbr .\Debug\Output.sbr .\Debug\OutputPin.sbr .\Debug\Pin.sbr .\Debug\AND2.sbr .\Debug\Component.sbr .\Debug\Gate.sbr .\Debug\ApplicationManager.sbr .\Debug\main.sbr .\Debug\RedoA.sbr .\Debug\Save.sbr .\Debug\Selection.sbr .\Debug\Simulation.sbr .\Debug\Switch.sbr .\Debug\TruthTable.sbr .\Debug\UndoA.sbr .\Debug\XNOR2.sbr .\Debug\Xor2.sbr .\Debug\Xor3.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\graphics_prj.unsuccessfulbuild".
+         Touching ".\Debug\graphics_prj.lastbuildstate".
+     1>Done Building Project "C:\Documents and Settings\spider\Desktop\Logic Simulator\graphics_prj.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.78
