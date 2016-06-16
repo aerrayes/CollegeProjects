@@ -1,0 +1,128 @@
+-- MAX+plus II Compiler Fit File      
+-- Version 10.2 07/10/2002            
+-- Compiled: 12/02/2010 16:46:33      
+
+-- Copyright (C) 1988-2002 Altera Corporation
+-- Any megafunction design, and related net list (encrypted or decrypted),
+-- support information, device programming or simulation file, and any other
+-- associated documentation or information provided by Altera or a partner
+-- under Altera's Megafunction Partnership Program may be used only to
+-- program PLD devices (but not masked PLD devices) from Altera.  Any other
+-- use of such megafunction design, net list, support information, device
+-- programming or simulation file, or any other related documentation or
+-- information is prohibited for any other purpose, including, but not
+-- limited to modification, reverse engineering, de-compiling, or use with
+-- any other silicon devices, unless such use is explicitly licensed under
+-- a separate agreement with Altera or a megafunction partner.  Title to
+-- the intellectual property, including patents, copyrights, trademarks,
+-- trade secrets, or maskworks, embodied in any such megafunction design,
+-- net list, support information, device programming or simulation file, or
+-- any other related documentation or information provided by Altera or a
+-- megafunction partner, remains with Altera, the megafunction partner, or
+-- their respective licensors.  No other licenses, including any licenses
+-- needed under any third party's intellectual property, are provided herein.
+
+CHIP "fourbittest"
+BEGIN
+
+    DEVICE = "EPM7064LC44-7";
+
+    "A0"                           : INPUT_PIN  = 7      ; -- LC8
+    "A1"                           : INPUT_PIN  = 18     ; -- LC21
+    "A2"                           : INPUT_PIN  = 21     ; -- LC17
+    "A3"                           : INPUT_PIN  = 17     ; -- LC24
+    "B0"                           : INPUT_PIN  = 4      ; -- LC16
+    "B1"                           : INPUT_PIN  = 19     ; -- LC20
+    "B2"                           : INPUT_PIN  = 5      ; -- LC14
+    "B3"                           : INPUT_PIN  = 20     ; -- LC19
+    "Cin"                          : INPUT_PIN  = 6      ; -- LC11
+    "l"                            : INPUT_PIN  = 8      ; -- LC5
+    "S0"                           : INPUT_PIN  = 12     ; -- LC1
+    "S1"                           : INPUT_PIN  = 11     ; -- LC3
+    "S2"                           : INPUT_PIN  = 9      ; -- LC4
+    "Cout"                         : OUTPUT_PIN = 29     ; -- LC41
+    "F0"                           : OUTPUT_PIN = 14     ; -- LC30
+    "F1"                           : OUTPUT_PIN = 41     ; -- LC64
+    "F2"                           : OUTPUT_PIN = 31     ; -- LC46
+    "F3"                           : OUTPUT_PIN = 32     ; -- LC48
+    "V0"                           : OUTPUT_PIN = 16     ; -- LC25
+    "V1"                           : OUTPUT_PIN = 25     ; -- LC35
+    "|twobittest:two_one|onebittest:one_one|~90~1" : LOCATION   = LC20   ; -- PIN 19
+    "|twobittest:two_one|onebittest:one_one|~90~2" : LOCATION   = LC58   ;
+    "|twobittest:two_one|onebittest:one_two|~90~1" : LOCATION   = LC63   ;
+    "|twobittest:two_one|onebittest:one_two|~90~2" : LOCATION   = LC60   ;
+    "|twobittest:two_one|onebittest:one_two|~90~3" : LOCATION   = LC59   ;
+    "|twobittest:two_one|onebittest:one_two|~90~4" : LOCATION   = LC54   ;
+    "|twobittest:two_one|onebittest:one_two|~105~1" : LOCATION   = LC49   ; -- PIN 33
+    "|twobittest:two_one|onebittest:one_two|~105~2" : LOCATION   = LC61   ;
+    "|twobittest:two_one|onebittest:one_two|~105~3" : LOCATION   = LC57   ; -- PIN 39
+    "|twobittest:two_two|onebittest:one_one|full_adder:f1|half_adder:h1|~6~1" : LOCATION   = LC44   ;
+    "|twobittest:two_two|onebittest:one_one|full_adder:f2|half_adder:h1|~6~1" : LOCATION   = LC43   ;
+    "|twobittest:two_two|onebittest:one_one|~89~2" : LOCATION   = LC34   ;
+    "|twobittest:two_two|onebittest:one_one|~89~3" : LOCATION   = LC33   ; -- PIN 24
+    "|twobittest:two_two|onebittest:one_one|~105~1" : LOCATION   = LC53   ; -- PIN 37
+    "|twobittest:two_two|onebittest:one_one|~105~2" : LOCATION   = LC55   ;
+    "|twobittest:two_two|onebittest:one_one|~105~3" : LOCATION   = LC50   ;
+    "|twobittest:two_two|onebittest:one_one|~105~4" : LOCATION   = LC51   ; -- PIN 34
+    "|twobittest:two_two|onebittest:one_one|~105~5" : LOCATION   = LC52   ; -- PIN 36
+    "|twobittest:two_two|onebittest:one_one|~105~6" : LOCATION   = LC62   ; -- PIN 40
+    "|twobittest:two_two|onebittest:one_one|~105~7" : LOCATION   = LC56   ; -- PIN 38
+    "|twobittest:two_two|onebittest:one_two|full_adder:f1|half_adder:h1|~6~1" : LOCATION   = LC42   ;
+    "|twobittest:two_two|onebittest:one_two|full_adder:f2|half_adder:h1|~6~1" : LOCATION   = LC40   ; -- PIN 28
+    "|twobittest:two_two|onebittest:one_two|~89~2" : LOCATION   = LC39   ;
+    "|twobittest:two_two|onebittest:one_two|~89~3" : LOCATION   = LC38   ;
+    "|twobittest:two_two|onebittest:one_two|~106~1" : LOCATION   = LC37   ; -- PIN 27
+    "|twobittest:two_two|~15~1"    : LOCATION   = LC36   ; -- PIN 26
+
+END;
+
+INTERNAL_INFO "fourbittest"
+BEGIN
+	DEVICE = EPM7064LC44-7;
+	LC48    : LORAX = "G77R0";
+	LC46    : LORAX = "G75R0";
+	LC64    : LORAX = "G114R0";
+	LC30    : LORAX = "G71R0";
+	LC35    : LORAX = "G60R0";
+	LC25    : LORAX = "G103R0";
+	LC41    : LORAX = "G107R0";
+	OH23R0P17 : LORAX = "G90R0,PA24R0C2";
+	OH3R0P9 : LORAX = "G86R0,PA22R0C2,PA22R0C1,PA26R0C3";
+	OH2R0P11 : LORAX = "G85R0,PA21R0C2,PA21R0C3,PA21R0C1";
+	OH0R0P12 : LORAX = "G83R0,PA18R0C2,PA19R0C3,PA18R0C1";
+	LC53    : LORAX = "G62R0,PA16R0C2";
+	OH16R0P21 : LORAX = "G120R0,PA27R0C2,PA27R0C3";
+	OH20R0P18 : LORAX = "G87R0,PA20R0C3";
+	OH7R0P7 : LORAX = "G119R0,PA31R0C3,PA31R0C1";
+	OH4R0P8 : LORAX = "G116R0,PA27R0C1,PA28R0C3";
+	OH19R0P19 : LORAX = "G123R0,PA33R0C3";
+	OH15R0P4 : LORAX = "G36R0,PA14R0C1,PA17R0C3";
+	OH10R0P6 : LORAX = "G2R0,PA0R0C3,PA0R0C1";
+	OH13R0P5 : LORAX = "G34R0,PA13R0C2,PA13R0C3";
+	LC40    : LORAX = "G28R0,PA0R0C2";
+	OH18R0P20 : LORAX = "G122R0,PA32R0C2";
+	LC42    : LORAX = "G108R0,PA29R0C2";
+	LC49    : LORAX = "G29R0,PA8R0C2,PA7R0C1";
+	LC43    : LORAX = "G109R0,PA30R0C2";
+	LC44    : LORAX = "G110R0,PA31R0C2";
+	LC63    : LORAX = "G113R0,PA34R0C3";
+	LC55    : LORAX = "G64R0,PA12R0C3";
+	LC50    : LORAX = "G30R0,PA5R0C3";
+	LC51    : LORAX = "G31R0,PA4R0C3";
+	LC60    : LORAX = "G81R0,PA22R0C3";
+	LC52    : LORAX = "G32R0,PA1R0C3";
+	LC34    : LORAX = "G59R0,PA10R0C2";
+	LC39    : LORAX = "G27R0,PA7R0C2";
+	LC61    : LORAX = "G111R0,PA29R0C3";
+	LC59    : LORAX = "G80R0,PA18R0C3";
+	LC20    : LORAX = "G57R0,PA9R0C1";
+	LC62    : LORAX = "G112R0,PA30R0C3";
+	LC33    : LORAX = "G58R0,PA11R0C2";
+	LC38    : LORAX = "G26R0,PA1R0C2";
+	LC57    : LORAX = "G78R0,PA24R0C3";
+	LC54    : LORAX = "G63R0,PA14R0C3";
+	LC58    : LORAX = "G79R0,PA26R0C1";
+	LC36    : LORAX = "G61R0,PA9R0C2";
+	LC37    : LORAX = "G25R0,PA2R0C2";
+	LC56    : LORAX = "G65R0,PA10R0C3";
+END;

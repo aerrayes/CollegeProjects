@@ -1,0 +1,4 @@
+% MAX+plus II 10.2   Date: 12/01/2010 14:15:42 %
+
+Error: Line 7: File f:\proj\onebit.v: Expression error: bit-select cannot be specified for scalar net
+Error: Line 8: File f:\proj\onebit.v: Expression error: bit-select cannot be specified for scalar net

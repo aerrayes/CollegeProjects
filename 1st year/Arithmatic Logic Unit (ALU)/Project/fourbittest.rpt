@@ -1,0 +1,882 @@
+Project Information                                    f:\proj\fourbittest.rpt
+
+MAX+plus II Compiler Report File
+Version 10.2 07/10/2002
+Compiled: 12/02/2010 16:46:33
+
+Copyright (C) 1988-2002 Altera Corporation
+Any megafunction design, and related net list (encrypted or decrypted),
+support information, device programming or simulation file, and any other
+associated documentation or information provided by Altera or a partner
+under Altera's Megafunction Partnership Program may be used only to
+program PLD devices (but not masked PLD devices) from Altera.  Any other
+use of such megafunction design, net list, support information, device
+programming or simulation file, or any other related documentation or
+information is prohibited for any other purpose, including, but not
+limited to modification, reverse engineering, de-compiling, or use with
+any other silicon devices, unless such use is explicitly licensed under
+a separate agreement with Altera or a megafunction partner.  Title to
+the intellectual property, including patents, copyrights, trademarks,
+trade secrets, or maskworks, embodied in any such megafunction design,
+net list, support information, device programming or simulation file, or
+any other related documentation or information provided by Altera or a
+megafunction partner, remains with Altera, the megafunction partner, or
+their respective licensors.  No other licenses, including any licenses
+needed under any third party's intellectual property, are provided herein.
+
+
+
+***** Project compilation was successful
+
+
+
+
+** DEVICE SUMMARY **
+
+Chip/                     Input   Output   Bidir         Shareable
+POF       Device          Pins    Pins     Pins     LCs  Expanders  % Utilized
+
+fourbittest
+      EPM7064LC44-7        13       7        0      33      15          51 %
+
+User Pins:                 13       7        0  
+
+
+
+Project Information                                    f:\proj\fourbittest.rpt
+
+** FILE HIERARCHY **
+
+
+
+|twobittest:two_one|
+|twobittest:two_one|onebittest:one_one|
+|twobittest:two_one|onebittest:one_one|half_adder:inc1|
+|twobittest:two_one|onebittest:one_one|full_adder:f1|
+|twobittest:two_one|onebittest:one_one|full_adder:f1|half_adder:h1|
+|twobittest:two_one|onebittest:one_one|full_adder:f1|half_adder:h2|
+|twobittest:two_one|onebittest:one_one|full_adder:f2|
+|twobittest:two_one|onebittest:one_one|full_adder:f2|half_adder:h1|
+|twobittest:two_one|onebittest:one_one|full_adder:f2|half_adder:h2|
+|twobittest:two_one|onebittest:one_one|decrement:d1|
+|twobittest:two_one|onebittest:one_one|decrement:d1|full_adder:x|
+|twobittest:two_one|onebittest:one_one|decrement:d1|full_adder:x|half_adder:h1|
+|twobittest:two_one|onebittest:one_one|decrement:d1|full_adder:x|half_adder:h2|
+|twobittest:two_one|onebittest:one_two|
+|twobittest:two_one|onebittest:one_two|half_adder:inc1|
+|twobittest:two_one|onebittest:one_two|full_adder:f1|
+|twobittest:two_one|onebittest:one_two|full_adder:f1|half_adder:h1|
+|twobittest:two_one|onebittest:one_two|full_adder:f1|half_adder:h2|
+|twobittest:two_one|onebittest:one_two|full_adder:f2|
+|twobittest:two_one|onebittest:one_two|full_adder:f2|half_adder:h1|
+|twobittest:two_one|onebittest:one_two|full_adder:f2|half_adder:h2|
+|twobittest:two_one|onebittest:one_two|decrement:d1|
+|twobittest:two_one|onebittest:one_two|decrement:d1|full_adder:x|
+|twobittest:two_one|onebittest:one_two|decrement:d1|full_adder:x|half_adder:h1|
+|twobittest:two_one|onebittest:one_two|decrement:d1|full_adder:x|half_adder:h2|
+|twobittest:two_two|
+|twobittest:two_two|onebittest:one_one|
+|twobittest:two_two|onebittest:one_one|half_adder:inc1|
+|twobittest:two_two|onebittest:one_one|full_adder:f1|
+|twobittest:two_two|onebittest:one_one|full_adder:f1|half_adder:h1|
+|twobittest:two_two|onebittest:one_one|full_adder:f1|half_adder:h2|
+|twobittest:two_two|onebittest:one_one|full_adder:f2|
+|twobittest:two_two|onebittest:one_one|full_adder:f2|half_adder:h1|
+|twobittest:two_two|onebittest:one_one|full_adder:f2|half_adder:h2|
+|twobittest:two_two|onebittest:one_one|decrement:d1|
+|twobittest:two_two|onebittest:one_one|decrement:d1|full_adder:x|
+|twobittest:two_two|onebittest:one_one|decrement:d1|full_adder:x|half_adder:h1|
+|twobittest:two_two|onebittest:one_one|decrement:d1|full_adder:x|half_adder:h2|
+|twobittest:two_two|onebittest:one_two|
+|twobittest:two_two|onebittest:one_two|half_adder:inc1|
+|twobittest:two_two|onebittest:one_two|full_adder:f1|
+|twobittest:two_two|onebittest:one_two|full_adder:f1|half_adder:h1|
+|twobittest:two_two|onebittest:one_two|full_adder:f1|half_adder:h2|
+|twobittest:two_two|onebittest:one_two|full_adder:f2|
+|twobittest:two_two|onebittest:one_two|full_adder:f2|half_adder:h1|
+|twobittest:two_two|onebittest:one_two|full_adder:f2|half_adder:h2|
+|twobittest:two_two|onebittest:one_two|decrement:d1|
+|twobittest:two_two|onebittest:one_two|decrement:d1|full_adder:x|
+|twobittest:two_two|onebittest:one_two|decrement:d1|full_adder:x|half_adder:h1|
+|twobittest:two_two|onebittest:one_two|decrement:d1|full_adder:x|half_adder:h2|
+
+
+Device-Specific Information:                           f:\proj\fourbittest.rpt
+fourbittest
+
+***** Logic for device 'fourbittest' compiled without errors.
+
+
+
+
+Device: EPM7064LC44-7
+
+Device Options:
+    Turbo Bit                                    = ON
+    Security Bit                                 = OFF
+
+                                            R  
+                                            E  
+                                            S  
+                                            E  
+                                            R  
+              C        V  G  G  G  G  G     V  
+              i  B  B  C  N  N  N  N  N  F  E  
+              n  2  0  C  D  D  D  D  D  1  D  
+            -----------------------------------_ 
+          /   6  5  4  3  2  1 44 43 42 41 40   | 
+      A0 |  7                                39 | RESERVED 
+       l |  8                                38 | RESERVED 
+      S2 |  9                                37 | RESERVED 
+     GND | 10                                36 | RESERVED 
+      S1 | 11                                35 | VCC 
+      S0 | 12         EPM7064LC44-7          34 | RESERVED 
+RESERVED | 13                                33 | RESERVED 
+      F0 | 14                                32 | F3 
+     VCC | 15                                31 | F2 
+      V0 | 16                                30 | GND 
+      A3 | 17                                29 | Cout 
+         |_  18 19 20 21 22 23 24 25 26 27 28  _| 
+           ------------------------------------ 
+              A  B  B  A  G  V  R  V  R  R  R  
+              1  1  3  2  N  C  E  1  E  E  E  
+                          D  C  S     S  S  S  
+                                E     E  E  E  
+                                R     R  R  R  
+                                V     V  V  V  
+                                E     E  E  E  
+                                D     D  D  D  
+
+
+N.C. = No Connect. This pin has no internal connection to the device.
+VCC = Dedicated power pin, which MUST be connected to VCC.
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+
+
+Device-Specific Information:                           f:\proj\fourbittest.rpt
+fourbittest
+
+** RESOURCE USAGE **
+
+                                                Shareable     External
+Logic Array Block     Logic Cells   I/O Pins    Expanders   Interconnect
+
+A:     LC1 - LC16     0/16(  0%)   8/ 8(100%)   0/16(  0%)   0/36(  0%) 
+B:    LC17 - LC32     3/16( 18%)   7/ 8( 87%)   5/16( 31%)  10/36( 27%) 
+C:    LC33 - LC48    14/16( 87%)   4/ 8( 50%)  13/16( 81%)  19/36( 52%) 
+D:    LC49 - LC64    16/16(100%)   1/ 8( 12%)  16/16(100%)  23/36( 63%) 
+
+
+Total dedicated input pins used:                 0/4      (  0%)
+Total I/O pins used:                            20/32     ( 62%)
+Total logic cells used:                         33/64     ( 51%)
+Total shareable expanders used:                 15/64     ( 23%)
+Total Turbo logic cells used:                   33/64     ( 51%)
+Total shareable expanders not available (n/a):  19/64     ( 29%)
+Average fan-in:                                  6.84
+Total fan-in:                                   226
+
+Total input pins required:                      13
+Total output pins required:                      7
+Total bidirectional pins required:               0
+Total logic cells required:                     33
+Total flipflops required:                        0
+Total product terms required:                  147
+Total logic cells lending parallel expanders:    0
+Total shareable expanders in database:          14
+
+Synthesized logic cells:                        26/  64   ( 40%)
+
+
+
+Device-Specific Information:                           f:\proj\fourbittest.rpt
+fourbittest
+
+** INPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+   7    (8)  (A)      INPUT               0      0   0    0    0    2   14  A0
+  18   (21)  (B)      INPUT               0      0   0    0    0    1   13  A1
+  21   (17)  (B)      INPUT               0      0   0    0    0    1   10  A2
+  17   (24)  (B)      INPUT               0      0   0    0    0    3    6  A3
+   4   (16)  (A)      INPUT               0      0   0    0    0    1   13  B0
+  19   (20)  (B)      INPUT               0      0   0    0    0    0   13  B1
+   5   (14)  (A)      INPUT               0      0   0    0    0    1   10  B2
+  20   (19)  (B)      INPUT               0      0   0    0    0    3    4  B3
+   6   (11)  (A)      INPUT               0      0   0    0    0    1   14  Cin
+   8    (5)  (A)      INPUT               0      0   0    0    0    1    4  l
+  12    (1)  (A)      INPUT               0      0   0    0    0    7   20  S0
+  11    (3)  (A)      INPUT               0      0   0    0    0    7   21  S1
+   9    (4)  (A)      INPUT               0      0   0    0    0    4   10  S2
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:                           f:\proj\fourbittest.rpt
+fourbittest
+
+** OUTPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+  29     41    C     OUTPUT      t        2      2   0    4    4    0    0  Cout
+  14     30    B     OUTPUT      t        1      1   0    4    2    0    0  F0
+  41     64    D     OUTPUT      t        1      1   0    4    4    0    0  F1
+  31     46    C     OUTPUT      t        3      0   0    5    3    0    0  F2
+  32     48    C     OUTPUT      t        3      0   0    5    3    0    0  F3
+  16     25    B     OUTPUT      t        3      0   1    6    1    0    0  V0
+  25     35    C     OUTPUT      t        3      2   1    4    3    0    0  V1
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:                           f:\proj\fourbittest.rpt
+fourbittest
+
+** BURIED LOGIC **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+ (19)    20    B       SOFT    s t        1      0   1    6    0    1    0  |twobittest:two_one|onebittest:one_one|~90~1
+   -     58    D       SOFT    s t        0      0   0    6    0    1    0  |twobittest:two_one|onebittest:one_one|~90~2
+   -     63    D       SOFT    s t        1      0   1    8    0    1    0  |twobittest:two_one|onebittest:one_two|~90~1
+   -     60    D       SOFT    s t        1      0   1    8    0    1    0  |twobittest:two_one|onebittest:one_two|~90~2
+   -     59    D       SOFT    s t        1      0   1    7    0    1    0  |twobittest:two_one|onebittest:one_two|~90~3
+   -     54    D       SOFT    s t        0      0   0    7    0    1    0  |twobittest:two_one|onebittest:one_two|~90~4
+ (33)    49    D       SOFT    s t        4      2   1    8    2    2    2  |twobittest:two_one|onebittest:one_two|~105~1
+   -     61    D       SOFT    s t        1      0   1    7    0    0    1  |twobittest:two_one|onebittest:one_two|~105~2
+ (39)    57    D       SOFT    s t        1      0   1    7    0    0    1  |twobittest:two_one|onebittest:one_two|~105~3
+   -     44    C       SOFT    s t        0      0   0    2    0    0    2  |twobittest:two_two|onebittest:one_one|full_adder:f1|half_adder:h1|~6~1
+   -     43    C       SOFT    s t        0      0   0    2    0    0    1  |twobittest:two_two|onebittest:one_one|full_adder:f2|half_adder:h1|~6~1
+   -     34    C       SOFT    s t        1      0   1    4    3    1    0  |twobittest:two_two|onebittest:one_one|~89~2
+ (24)    33    C       SOFT    s t        1      0   1    5    2    1    0  |twobittest:two_two|onebittest:one_one|~89~3
+ (37)    53    D       SOFT    s t        3      2   1   10    6    3    3  |twobittest:two_two|onebittest:one_one|~105~1
+   -     55    D       SOFT    s t        1      0   1    8    0    0    1  |twobittest:two_two|onebittest:one_one|~105~2
+   -     50    D       SOFT    s t        1      0   1    9    0    0    1  |twobittest:two_two|onebittest:one_one|~105~3
+ (34)    51    D       SOFT    s t        1      0   1    8    0    0    1  |twobittest:two_two|onebittest:one_one|~105~4
+ (36)    52    D       SOFT    s t        1      0   1    7    0    0    1  |twobittest:two_two|onebittest:one_one|~105~5
+ (40)    62    D       SOFT    s t        1      0   1    8    0    0    1  |twobittest:two_two|onebittest:one_one|~105~6
+ (38)    56    D       SOFT    s t        0      0   0    5    0    0    1  |twobittest:two_two|onebittest:one_one|~105~7
+   -     42    C       SOFT    s t        0      0   0    2    0    2    3  |twobittest:two_two|onebittest:one_two|full_adder:f1|half_adder:h1|~6~1
+ (28)    40    C       SOFT    s t        0      0   0    2    0    1    3  |twobittest:two_two|onebittest:one_two|full_adder:f2|half_adder:h1|~6~1
+   -     39    C       SOFT    s t        1      0   1    4    3    1    0  |twobittest:two_two|onebittest:one_two|~89~2
+   -     38    C       SOFT    s t        1      0   1    5    2    1    0  |twobittest:two_two|onebittest:one_two|~89~3
+ (27)    37    C       SOFT    s t        0      0   0    3    2    1    0  |twobittest:two_two|onebittest:one_two|~106~1
+ (26)    36    C       SOFT    s t        0      0   0    4    2    1    0  |twobittest:two_two|~15~1
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:                           f:\proj\fourbittest.rpt
+fourbittest
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'B':
+
+               Logic cells placed in LAB 'B'
+        +----- LC30 F0
+        | +--- LC20 |twobittest:two_one|onebittest:one_one|~90~1
+        | | +- LC25 V0
+        | | | 
+        | | |   Other LABs fed by signals
+        | | |   that feed LAB 'B'
+LC      | | | | A B C D |     Logic cells that feed LAB 'B':
+LC20 -> * - - | - * - - | <-- |twobittest:two_one|onebittest:one_one|~90~1
+
+Pin
+7    -> * * * | - * - * | <-- A0
+4    -> - * * | - * - * | <-- B0
+6    -> - * * | - * - * | <-- Cin
+8    -> - - * | - * - * | <-- l
+12   -> * * * | - * * * | <-- S0
+11   -> * * * | - * * * | <-- S1
+9    -> * * - | - * * * | <-- S2
+LC58 -> * - - | - * - - | <-- |twobittest:two_one|onebittest:one_one|~90~2
+LC49 -> - - * | - * * - | <-- |twobittest:two_one|onebittest:one_two|~105~1
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                           f:\proj\fourbittest.rpt
+fourbittest
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'C':
+
+                                     Logic cells placed in LAB 'C'
+        +--------------------------- LC41 Cout
+        | +------------------------- LC46 F2
+        | | +----------------------- LC48 F3
+        | | | +--------------------- LC44 |twobittest:two_two|onebittest:one_one|full_adder:f1|half_adder:h1|~6~1
+        | | | | +------------------- LC43 |twobittest:two_two|onebittest:one_one|full_adder:f2|half_adder:h1|~6~1
+        | | | | | +----------------- LC34 |twobittest:two_two|onebittest:one_one|~89~2
+        | | | | | | +--------------- LC33 |twobittest:two_two|onebittest:one_one|~89~3
+        | | | | | | | +------------- LC42 |twobittest:two_two|onebittest:one_two|full_adder:f1|half_adder:h1|~6~1
+        | | | | | | | | +----------- LC40 |twobittest:two_two|onebittest:one_two|full_adder:f2|half_adder:h1|~6~1
+        | | | | | | | | | +--------- LC39 |twobittest:two_two|onebittest:one_two|~89~2
+        | | | | | | | | | | +------- LC38 |twobittest:two_two|onebittest:one_two|~89~3
+        | | | | | | | | | | | +----- LC37 |twobittest:two_two|onebittest:one_two|~106~1
+        | | | | | | | | | | | | +--- LC36 |twobittest:two_two|~15~1
+        | | | | | | | | | | | | | +- LC35 V1
+        | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | |   that feed LAB 'C'
+LC      | | | | | | | | | | | | | | | A B C D |     Logic cells that feed LAB 'C':
+LC44 -> - - - - - * * - - - - - - - | - - * - | <-- |twobittest:two_two|onebittest:one_one|full_adder:f1|half_adder:h1|~6~1
+LC43 -> - - - - - * - - - - - - - - | - - * - | <-- |twobittest:two_two|onebittest:one_one|full_adder:f2|half_adder:h1|~6~1
+LC34 -> - * - - - - - - - - - - - - | - - * - | <-- |twobittest:two_two|onebittest:one_one|~89~2
+LC33 -> - * - - - - - - - - - - - - | - - * - | <-- |twobittest:two_two|onebittest:one_one|~89~3
+LC42 -> * - - - - - - - - * * * - * | - - * - | <-- |twobittest:two_two|onebittest:one_two|full_adder:f1|half_adder:h1|~6~1
+LC40 -> * - - - - - - - - * - * * - | - - * - | <-- |twobittest:two_two|onebittest:one_two|full_adder:f2|half_adder:h1|~6~1
+LC39 -> - - * - - - - - - - - - - - | - - * - | <-- |twobittest:two_two|onebittest:one_two|~89~2
+LC38 -> - - * - - - - - - - - - - - | - - * - | <-- |twobittest:two_two|onebittest:one_two|~89~3
+LC37 -> * - - - - - - - - - - - - - | - - * - | <-- |twobittest:two_two|onebittest:one_two|~106~1
+LC36 -> - - - - - - - - - - - - - * | - - * - | <-- |twobittest:two_two|~15~1
+
+Pin
+21   -> - * - * * * * - - - - - - - | - - * * | <-- A2
+17   -> * - * - - - - * * * * * * * | - - * - | <-- A3
+5    -> - * - * * - * - - - - - - - | - - * * | <-- B2
+20   -> * - * - - - - * * - * - * * | - - * - | <-- B3
+12   -> * * * - - * * - - * * * * * | - * * * | <-- S0
+11   -> * * * - - * * - - * * * * * | - * * * | <-- S1
+9    -> - * * - - * * - - * * - - - | - * * * | <-- S2
+LC49 -> - * - - - * * - - - - - - - | - * * - | <-- |twobittest:two_one|onebittest:one_two|~105~1
+LC53 -> * - * - - - - - - * * - * * | - - * - | <-- |twobittest:two_two|onebittest:one_one|~105~1
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                           f:\proj\fourbittest.rpt
+fourbittest
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'D':
+
+                                         Logic cells placed in LAB 'D'
+        +------------------------------- LC64 F1
+        | +----------------------------- LC58 |twobittest:two_one|onebittest:one_one|~90~2
+        | | +--------------------------- LC63 |twobittest:two_one|onebittest:one_two|~90~1
+        | | | +------------------------- LC60 |twobittest:two_one|onebittest:one_two|~90~2
+        | | | | +----------------------- LC59 |twobittest:two_one|onebittest:one_two|~90~3
+        | | | | | +--------------------- LC54 |twobittest:two_one|onebittest:one_two|~90~4
+        | | | | | | +------------------- LC49 |twobittest:two_one|onebittest:one_two|~105~1
+        | | | | | | | +----------------- LC61 |twobittest:two_one|onebittest:one_two|~105~2
+        | | | | | | | | +--------------- LC57 |twobittest:two_one|onebittest:one_two|~105~3
+        | | | | | | | | | +------------- LC53 |twobittest:two_two|onebittest:one_one|~105~1
+        | | | | | | | | | | +----------- LC55 |twobittest:two_two|onebittest:one_one|~105~2
+        | | | | | | | | | | | +--------- LC50 |twobittest:two_two|onebittest:one_one|~105~3
+        | | | | | | | | | | | | +------- LC51 |twobittest:two_two|onebittest:one_one|~105~4
+        | | | | | | | | | | | | | +----- LC52 |twobittest:two_two|onebittest:one_one|~105~5
+        | | | | | | | | | | | | | | +--- LC62 |twobittest:two_two|onebittest:one_one|~105~6
+        | | | | | | | | | | | | | | | +- LC56 |twobittest:two_two|onebittest:one_one|~105~7
+        | | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | | |   that feed LAB 'D'
+LC      | | | | | | | | | | | | | | | | | A B C D |     Logic cells that feed LAB 'D':
+LC63 -> * - - - - - - - - - - - - - - - | - - - * | <-- |twobittest:two_one|onebittest:one_two|~90~1
+LC60 -> * - - - - - - - - - - - - - - - | - - - * | <-- |twobittest:two_one|onebittest:one_two|~90~2
+LC59 -> * - - - - - - - - - - - - - - - | - - - * | <-- |twobittest:two_one|onebittest:one_two|~90~3
+LC54 -> * - - - - - - - - - - - - - - - | - - - * | <-- |twobittest:two_one|onebittest:one_two|~90~4
+LC61 -> - - - - - - * - - - - - - - - - | - - - * | <-- |twobittest:two_one|onebittest:one_two|~105~2
+LC57 -> - - - - - - * - - - - - - - - - | - - - * | <-- |twobittest:two_one|onebittest:one_two|~105~3
+LC55 -> - - - - - - - - - * - - - - - - | - - - * | <-- |twobittest:two_two|onebittest:one_one|~105~2
+LC50 -> - - - - - - - - - * - - - - - - | - - - * | <-- |twobittest:two_two|onebittest:one_one|~105~3
+LC51 -> - - - - - - - - - * - - - - - - | - - - * | <-- |twobittest:two_two|onebittest:one_one|~105~4
+LC52 -> - - - - - - - - - * - - - - - - | - - - * | <-- |twobittest:two_two|onebittest:one_one|~105~5
+LC62 -> - - - - - - - - - * - - - - - - | - - - * | <-- |twobittest:two_two|onebittest:one_one|~105~6
+LC56 -> - - - - - - - - - * - - - - - - | - - - * | <-- |twobittest:two_two|onebittest:one_one|~105~7
+
+Pin
+7    -> - - * * * * * * * * * * * * * - | - * - * | <-- A0
+18   -> * - * * - * * * * * * * * * * * | - - - * | <-- A1
+21   -> - - - - - - - - - * * * * - * * | - - * * | <-- A2
+4    -> - * * * * - * * * * * * * * - - | - * - * | <-- B0
+19   -> - - * * * * * * * * * * * * * - | - - - * | <-- B1
+5    -> - - - - - - - - - * * * * * * * | - - * * | <-- B2
+6    -> - * * * * - * * * * * * * * * - | - * - * | <-- Cin
+8    -> - * - - - * * - - * - - - - - - | - * - * | <-- l
+12   -> * * * * * * * * * * * * - - * * | - * * * | <-- S0
+11   -> * * * * * * * * * * - * * * * * | - * * * | <-- S1
+9    -> * * * * * * - - - - - - - - - - | - * * * | <-- S2
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                           f:\proj\fourbittest.rpt
+fourbittest
+
+** EQUATIONS **
+
+A0       : INPUT;
+A1       : INPUT;
+A2       : INPUT;
+A3       : INPUT;
+B0       : INPUT;
+B1       : INPUT;
+B2       : INPUT;
+B3       : INPUT;
+Cin      : INPUT;
+l        : INPUT;
+S0       : INPUT;
+S1       : INPUT;
+S2       : INPUT;
+
+-- Node name is 'Cout' 
+-- Equation name is 'Cout', location is LC041, type is output.
+ Cout    = LCELL( _EQ001 $  _EQ002);
+  _EQ001 =  B3 & !_LC037 & !_LC040 & !S0 &  S1 &  _X001 &  _X002
+         # !B3 & !_LC037 & !_LC042 &  S0 & !S1 &  _X001 &  _X002
+         #  B3 & !_LC037 & !_LC053 & !S0 &  _X001 &  _X002;
+  _X001  = EXP(!A3 & !_LC053);
+  _X002  = EXP(!B3 & !_LC053 & !S1);
+  _EQ002 = !_LC037 &  _X001 &  _X002;
+  _X001  = EXP(!A3 & !_LC053);
+  _X002  = EXP(!B3 & !_LC053 & !S1);
+
+-- Node name is 'F0' 
+-- Equation name is 'F0', location is LC030, type is output.
+ F0      = LCELL( _EQ003 $ !A0);
+  _EQ003 = !_LC020 & !_LC058 &  _X003;
+  _X003  = EXP( S0 &  S1 &  S2);
+
+-- Node name is 'F1' 
+-- Equation name is 'F1', location is LC064, type is output.
+ F1      = LCELL( _EQ004 $ !A1);
+  _EQ004 = !_LC054 & !_LC059 & !_LC060 & !_LC063 &  _X003;
+  _X003  = EXP( S0 &  S1 &  S2);
+
+-- Node name is 'F2' 
+-- Equation name is 'F2', location is LC046, type is output.
+ F2      = LCELL( _EQ005 $  _EQ006);
+  _EQ005 = !A2 & !_LC033 & !_LC034 &  _LC049 &  S0 &  S1 & !S2 &  _X004 & 
+              _X005 &  _X006;
+  _X004  = EXP(!A2 & !B2 & !S1 &  S2);
+  _X005  = EXP(!A2 & !B2 & !S0 &  S2);
+  _X006  = EXP(!A2 & !_LC049 & !S0 & !S1);
+  _EQ006 = !_LC033 & !_LC034 &  _X004 &  _X005 &  _X006;
+  _X004  = EXP(!A2 & !B2 & !S1 &  S2);
+  _X005  = EXP(!A2 & !B2 & !S0 &  S2);
+  _X006  = EXP(!A2 & !_LC049 & !S0 & !S1);
+
+-- Node name is 'F3' 
+-- Equation name is 'F3', location is LC048, type is output.
+ F3      = LCELL( _EQ007 $  _EQ008);
+  _EQ007 = !A3 & !_LC038 & !_LC039 &  _LC053 &  S0 &  S1 & !S2 &  _X007 & 
+              _X008 &  _X009;
+  _X007  = EXP(!A3 & !B3 & !S1 &  S2);
+  _X008  = EXP(!A3 & !B3 & !S0 &  S2);
+  _X009  = EXP(!A3 & !_LC053 & !S0 & !S1);
+  _EQ008 = !_LC038 & !_LC039 &  _X007 &  _X008 &  _X009;
+  _X007  = EXP(!A3 & !B3 & !S1 &  S2);
+  _X008  = EXP(!A3 & !B3 & !S0 &  S2);
+  _X009  = EXP(!A3 & !_LC053 & !S0 & !S1);
+
+-- Node name is 'V0' 
+-- Equation name is 'V0', location is LC025, type is output.
+ V0      = LCELL( _EQ009 $ !_LC049);
+  _EQ009 = !A0 & !l &  S0 &  S1
+         #  B0 & !S0 &  _X010
+         # !A0 & !Cin &  _X011
+         # !B0 & !S1 &  _X010;
+  _X010  = EXP( A0 &  Cin);
+  _X011  = EXP( S0 &  S1);
+
+-- Node name is 'V1' 
+-- Equation name is 'V1', location is LC035, type is output.
+ V1      = LCELL( _EQ010 $  _EQ011);
+  _EQ010 =  A3 &  B3 & !_LC036 &  _LC053 &  S0 &  _X001 &  _X002
+         # !A3 & !_LC036 &  _LC053 &  S0 &  S1 &  _X001 &  _X002
+         # !_LC036 &  _LC042 &  _LC053 &  S0 & !S1 &  _X001 &  _X002
+         #  A3 & !B3 & !_LC036 &  _LC053 &  S1 &  _X001 &  _X002;
+  _X001  = EXP(!A3 & !_LC053);
+  _X002  = EXP(!B3 & !_LC053 & !S1);
+  _EQ011 = !_LC036 &  _X001 &  _X002;
+  _X001  = EXP(!A3 & !_LC053);
+  _X002  = EXP(!B3 & !_LC053 & !S1);
+
+-- Node name is '|twobittest:two_one|onebittest:one_one|~90~1' 
+-- Equation name is '_LC020', type is buried 
+-- synthesized logic cell 
+_LC020   = LCELL( _EQ012 $  GND);
+  _EQ012 =  A0 &  B0 & !Cin &  S0 & !S1 & !S2
+         # !A0 &  B0 & !Cin &  S0 & !S1
+         #  A0 & !B0 & !S0 & !S1 &  S2
+         # !B0 & !Cin & !S0 &  S1 & !S2
+         # !A0 &  B0 &  S0 &  S2;
+
+-- Node name is '|twobittest:two_one|onebittest:one_one|~90~2' 
+-- Equation name is '_LC058', type is buried 
+-- synthesized logic cell 
+_LC058   = LCELL( _EQ013 $  GND);
+  _EQ013 =  B0 &  Cin & !S0 & !S2
+         # !B0 &  Cin & !S1 & !S2
+         #  B0 &  S1 &  S2
+         # !l &  S0 &  S1;
+
+-- Node name is '|twobittest:two_one|onebittest:one_two|~90~1' 
+-- Equation name is '_LC063', type is buried 
+-- synthesized logic cell 
+_LC063   = LCELL( _EQ014 $  GND);
+  _EQ014 =  A1 & !B0 &  B1 & !Cin &  S0 & !S1 & !S2
+         # !A0 &  A1 & !B0 &  B1 &  S0 & !S1 & !S2
+         # !A0 &  A1 &  B1 & !Cin &  S0 & !S1 & !S2
+         #  B0 & !B1 &  Cin &  S0 & !S1 & !S2
+         #  A0 &  B0 & !B1 &  S0 & !S1 & !S2;
+
+-- Node name is '|twobittest:two_one|onebittest:one_two|~90~2' 
+-- Equation name is '_LC060', type is buried 
+-- synthesized logic cell 
+_LC060   = LCELL( _EQ015 $  GND);
+  _EQ015 = !A1 & !B0 &  B1 & !Cin &  S0 & !S1
+         # !A0 & !A1 &  B1 & !Cin &  S0 & !S1
+         # !A0 & !A1 & !B0 &  B1 &  S0 & !S1
+         # !A0 &  B0 & !B1 & !S0 &  S1 & !S2
+         #  B0 & !B1 & !Cin & !S0 &  S1 & !S2;
+
+-- Node name is '|twobittest:two_one|onebittest:one_two|~90~3' 
+-- Equation name is '_LC059', type is buried 
+-- synthesized logic cell 
+_LC059   = LCELL( _EQ016 $  GND);
+  _EQ016 = !A0 & !B1 & !Cin & !S0 &  S1 & !S2
+         #  A0 &  B1 &  Cin & !S0 & !S2
+         # !B0 &  B1 &  Cin & !S0 &  S1
+         #  A0 & !B0 &  B1 & !S0 &  S1
+         #  A0 & !B1 &  Cin & !S1 & !S2;
+
+-- Node name is '|twobittest:two_one|onebittest:one_two|~90~4' 
+-- Equation name is '_LC054', type is buried 
+-- synthesized logic cell 
+_LC054   = LCELL( _EQ017 $  GND);
+  _EQ017 =  A1 & !B1 & !S0 & !S1 &  S2
+         # !A1 &  B1 &  S0 &  S2
+         # !A0 & !l &  S0 &  S1
+         #  B1 &  S1 &  S2;
+
+-- Node name is '|twobittest:two_one|onebittest:one_two|~105~1' 
+-- Equation name is '_LC049', type is buried 
+-- synthesized logic cell 
+_LC049   = LCELL( _EQ018 $  _EQ019);
+  _EQ018 = !A0 & !A1 & !l & !_LC057 & !_LC061 &  S0 &  S1 &  _X012 &  _X013 & 
+              _X014
+         # !A0 &  B0 &  B1 & !_LC057 & !_LC061 & !S0 &  _X012 &  _X013 & 
+              _X014
+         #  B0 &  B1 & !Cin & !_LC057 & !_LC061 & !S0 &  _X012 &  _X013 & 
+              _X014
+         # !A0 & !A1 &  B0 & !_LC057 & !_LC061 & !S0 &  _X012 &  _X013 & 
+              _X014;
+  _X012  = EXP(!Cin & !S0 & !S1);
+  _X013  = EXP(!A0 & !S0 & !S1);
+  _X014  = EXP(!A1 & !B1 & !S1);
+  _EQ019 = !_LC057 & !_LC061 &  _X012 &  _X013 &  _X014;
+  _X012  = EXP(!Cin & !S0 & !S1);
+  _X013  = EXP(!A0 & !S0 & !S1);
+  _X014  = EXP(!A1 & !B1 & !S1);
+
+-- Node name is '|twobittest:two_one|onebittest:one_two|~105~2' 
+-- Equation name is '_LC061', type is buried 
+-- synthesized logic cell 
+_LC061   = LCELL( _EQ020 $  GND);
+  _EQ020 = !A1 &  B0 & !Cin & !S0
+         # !A0 &  B1 & !Cin & !S0
+         # !A0 & !A1 & !B0 & !S1
+         # !A0 & !A1 & !Cin & !S1
+         # !A1 & !B0 & !Cin & !S1;
+
+-- Node name is '|twobittest:two_one|onebittest:one_two|~105~3' 
+-- Equation name is '_LC057', type is buried 
+-- synthesized logic cell 
+_LC057   = LCELL( _EQ021 $  GND);
+  _EQ021 = !A0 & !B0 & !B1 & !S1
+         # !A0 & !B1 & !Cin & !S1
+         # !B0 & !B1 & !Cin & !S1
+         # !A0 & !A1 & !Cin & !S0
+         # !A1 &  B1 & !S0;
+
+-- Node name is '|twobittest:two_two|onebittest:one_one|full_adder:f1|half_adder:h1|~6~1' 
+-- Equation name is '_LC044', type is buried 
+-- synthesized logic cell 
+_LC044   = LCELL( B2 $  A2);
+
+-- Node name is '|twobittest:two_two|onebittest:one_one|full_adder:f2|half_adder:h1|~6~1' 
+-- Equation name is '_LC043', type is buried 
+-- synthesized logic cell 
+_LC043   = LCELL(!B2 $  A2);
+
+-- Node name is '|twobittest:two_two|onebittest:one_one|~89~2' 
+-- Equation name is '_LC034', type is buried 
+-- synthesized logic cell 
+_LC034   = LCELL( _EQ022 $  GND);
+  _EQ022 =  _LC043 &  _LC049 & !S0 &  S1 & !S2
+         #  _LC044 &  _LC049 &  S0 & !S1 & !S2
+         #  A2 &  _LC049 & !S0 & !S1 & !S2
+         #  A2 & !_LC049 &  S0 &  S1 & !S2
+         # !_LC043 & !_LC049 & !S0 &  S1 & !S2;
+
+-- Node name is '|twobittest:two_two|onebittest:one_one|~89~3' 
+-- Equation name is '_LC033', type is buried 
+-- synthesized logic cell 
+_LC033   = LCELL( _EQ023 $  GND);
+  _EQ023 = !_LC044 & !_LC049 &  S0 & !S1 & !S2
+         #  A2 &  B2 &  S1 &  S2
+         #  A2 &  S0 &  S1 &  S2
+         # !A2 & !S0 & !S1 &  S2
+         # !B2 & !S0 & !S1 &  S2;
+
+-- Node name is '|twobittest:two_two|onebittest:one_one|~105~1' 
+-- Equation name is '_LC053', type is buried 
+-- synthesized logic cell 
+_LC053   = LCELL( _EQ024 $  _EQ025);
+  _EQ024 = !A0 & !A1 & !A2 & !l & !_LC050 & !_LC051 & !_LC052 & !_LC055 & 
+             !_LC056 & !_LC062 &  S0 &  S1 &  _X012 &  _X013
+         # !A0 &  B0 &  B1 &  B2 & !_LC050 & !_LC051 & !_LC052 & !_LC055 & 
+             !_LC056 & !_LC062 & !S0 &  _X012 &  _X013
+         #  B0 &  B1 &  B2 & !Cin & !_LC050 & !_LC051 & !_LC052 & !_LC055 & 
+             !_LC056 & !_LC062 & !S0 &  _X012 &  _X013
+         # !A0 & !A2 &  B0 &  B1 & !_LC050 & !_LC051 & !_LC052 & !_LC055 & 
+             !_LC056 & !_LC062 & !S0 &  _X012 &  _X013;
+  _X012  = EXP(!Cin & !S0 & !S1);
+  _X013  = EXP(!A0 & !S0 & !S1);
+  _EQ025 = !_LC050 & !_LC051 & !_LC052 & !_LC055 & !_LC056 & !_LC062 &  _X012 & 
+              _X013;
+  _X012  = EXP(!Cin & !S0 & !S1);
+  _X013  = EXP(!A0 & !S0 & !S1);
+
+-- Node name is '|twobittest:two_two|onebittest:one_one|~105~2' 
+-- Equation name is '_LC055', type is buried 
+-- synthesized logic cell 
+_LC055   = LCELL( _EQ026 $  GND);
+  _EQ026 = !A2 &  B0 &  B1 & !Cin & !S0
+         # !A0 & !A1 &  B0 &  B2 & !S0
+         # !A1 &  B0 &  B2 & !Cin & !S0
+         # !A0 &  B1 &  B2 & !Cin & !S0
+         # !A0 & !A1 & !A2 &  B0 & !S0;
+
+-- Node name is '|twobittest:two_two|onebittest:one_one|~105~3' 
+-- Equation name is '_LC050', type is buried 
+-- synthesized logic cell 
+_LC050   = LCELL( _EQ027 $  GND);
+  _EQ027 = !A1 & !A2 &  B0 & !Cin & !S0
+         # !A0 & !A2 &  B1 & !Cin & !S0
+         # !A0 & !A1 &  B2 & !Cin & !S0
+         # !A0 & !A1 & !A2 & !B0 & !S1
+         # !A1 & !A2 & !B0 & !Cin & !S1;
+
+-- Node name is '|twobittest:two_two|onebittest:one_one|~105~4' 
+-- Equation name is '_LC051', type is buried 
+-- synthesized logic cell 
+_LC051   = LCELL( _EQ028 $  GND);
+  _EQ028 = !A0 & !A2 & !B0 & !B1 & !S1
+         # !A2 & !B0 & !B1 & !Cin & !S1
+         # !A0 & !A2 & !B1 & !Cin & !S1
+         # !A0 & !A1 & !A2 & !Cin & !S1
+         # !A0 & !A1 & !B0 & !B2 & !S1;
+
+-- Node name is '|twobittest:two_two|onebittest:one_one|~105~5' 
+-- Equation name is '_LC052', type is buried 
+-- synthesized logic cell 
+_LC052   = LCELL( _EQ029 $  GND);
+  _EQ029 = !A1 & !B0 & !B2 & !Cin & !S1
+         # !A0 & !B0 & !B1 & !B2 & !S1
+         # !B0 & !B1 & !B2 & !Cin & !S1
+         # !A0 & !B1 & !B2 & !Cin & !S1
+         # !A0 & !A1 & !B2 & !Cin & !S1;
+
+-- Node name is '|twobittest:two_two|onebittest:one_one|~105~6' 
+-- Equation name is '_LC062', type is buried 
+-- synthesized logic cell 
+_LC062   = LCELL( _EQ030 $  GND);
+  _EQ030 = !A0 & !A1 & !A2 & !Cin & !S0
+         # !A1 &  B1 &  B2 & !S0
+         # !A1 & !A2 &  B1 & !S0
+         # !A1 & !A2 & !B1 & !S1
+         # !A1 & !B1 & !B2 & !S1;
+
+-- Node name is '|twobittest:two_two|onebittest:one_one|~105~7' 
+-- Equation name is '_LC056', type is buried 
+-- synthesized logic cell 
+_LC056   = LCELL( _EQ031 $  GND);
+  _EQ031 = !A2 &  B2 & !S0
+         # !A1 & !S0 & !S1
+         # !A2 & !B2 & !S1;
+
+-- Node name is '|twobittest:two_two|onebittest:one_two|full_adder:f1|half_adder:h1|~6~1' 
+-- Equation name is '_LC042', type is buried 
+-- synthesized logic cell 
+_LC042   = LCELL( B3 $  A3);
+
+-- Node name is '|twobittest:two_two|onebittest:one_two|full_adder:f2|half_adder:h1|~6~1' 
+-- Equation name is '_LC040', type is buried 
+-- synthesized logic cell 
+_LC040   = LCELL(!B3 $  A3);
+
+-- Node name is '|twobittest:two_two|onebittest:one_two|~89~2' 
+-- Equation name is '_LC039', type is buried 
+-- synthesized logic cell 
+_LC039   = LCELL( _EQ032 $  GND);
+  _EQ032 =  _LC040 &  _LC053 & !S0 &  S1 & !S2
+         #  _LC042 &  _LC053 &  S0 & !S1 & !S2
+         #  A3 &  _LC053 & !S0 & !S1 & !S2
+         #  A3 & !_LC053 &  S0 &  S1 & !S2
+         # !_LC040 & !_LC053 & !S0 &  S1 & !S2;
+
+-- Node name is '|twobittest:two_two|onebittest:one_two|~89~3' 
+-- Equation name is '_LC038', type is buried 
+-- synthesized logic cell 
+_LC038   = LCELL( _EQ033 $  GND);
+  _EQ033 = !_LC042 & !_LC053 &  S0 & !S1 & !S2
+         #  A3 &  B3 &  S1 &  S2
+         #  A3 &  S0 &  S1 &  S2
+         # !A3 & !S0 & !S1 &  S2
+         # !B3 & !S0 & !S1 &  S2;
+
+-- Node name is '|twobittest:two_two|onebittest:one_two|~106~1' 
+-- Equation name is '_LC037', type is buried 
+-- synthesized logic cell 
+_LC037   = LCELL( _EQ034 $  GND);
+  _EQ034 = !A3 & !_LC042 & !S1
+         # !A3 & !S0 & !S1
+         # !A3 & !_LC040 & !S0;
+
+-- Node name is '|twobittest:two_two|~15~1' 
+-- Equation name is '_LC036', type is buried 
+-- synthesized logic cell 
+_LC036   = LCELL( _EQ035 $  GND);
+  _EQ035 =  _LC040 &  _LC053 & !S0 &  S1
+         #  B3 & !_LC053 & !S0
+         #  A3 & !S0 & !S1;
+
+
+
+--     Shareable expanders that are duplicated in multiple LABs:
+--    _X003 occurs in LABs B, D
+
+
+
+
+Project Information                                    f:\proj\fourbittest.rpt
+
+** COMPILATION SETTINGS & TIMES **
+
+Processing Menu Commands
+------------------------
+
+Design Doctor                             = off
+
+Logic Synthesis:
+
+   Synthesis Type Used                    = Standard
+
+   Default Synthesis Style                = NORMAL
+
+      Logic option settings in 'NORMAL' style for 'MAX7000' family
+
+      DECOMPOSE_GATES                     = on
+      DUPLICATE_LOGIC_EXTRACTION          = on
+      MINIMIZATION                        = full
+      MULTI_LEVEL_FACTORING               = on
+      NOT_GATE_PUSH_BACK                  = on
+      PARALLEL_EXPANDERS                  = off
+      REDUCE_LOGIC                        = on
+      REFACTORIZATION                     = on
+      REGISTER_OPTIMIZATION               = on
+      RESYNTHESIZE_NETWORK                = on
+      SLOW_SLEW_RATE                      = off
+      SOFT_BUFFER_INSERTION               = on
+      SUBFACTOR_EXTRACTION                = on
+      TURBO_BIT                           = on
+      XOR_SYNTHESIS                       = on
+      IGNORE_SOFT_BUFFERS                 = off
+      USE_LPM_FOR_AHDL_OPERATORS          = off
+
+   Other logic synthesis settings:
+
+      Automatic Global Clock              = on
+      Automatic Global Clear              = on
+      Automatic Global Preset             = on
+      Automatic Global Output Enable      = on
+      Automatic Fast I/O                  = off
+      Automatic Register Packing          = off
+      Automatic Open-Drain Pins           = on
+      Automatic Implement in EAB          = off
+      One-Hot State Machine Encoding      = off
+      Optimize                            = 5
+
+Default Timing Specifications: None
+
+Cut All Bidir Feedback Timing Paths       = on
+Cut All Clear & Preset Timing Paths       = on
+
+Ignore Timing Assignments                 = off
+
+Functional SNF Extractor                  = off
+
+Linked SNF Extractor                      = off
+Timing SNF Extractor                      = on
+Optimize Timing SNF                       = off
+Generate AHDL TDO File                    = off
+Fitter Settings                           = NORMAL
+Smart Recompile                           = off
+Total Recompile                           = off
+
+Interfaces Menu Commands
+------------------------
+
+EDIF Netlist Writer                       = off
+Verilog Netlist Writer                    = off
+VHDL Netlist Writer                       = off
+
+Compilation Times
+-----------------
+
+   Compiler Netlist Extractor             00:00:00
+   Database Builder                       00:00:00
+   Logic Synthesizer                      00:00:01
+   Partitioner                            00:00:00
+   Fitter                                 00:00:00
+   Timing SNF Extractor                   00:00:00
+   Assembler                              00:00:00
+   --------------------------             --------
+   Total Time                             00:00:01
+
+
+Memory Allocated
+-----------------
+
+Peak memory allocated during compilation  = 4,689K
